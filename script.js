@@ -15,8 +15,7 @@ if (metricsFromLocalStorage) {
 
 let addedMetrics = [];
 
-convertBtn.addEventListener("click", function (e) {
-  e.preventDefault();
+convertBtn.addEventListener("click", function () {
   lengthEl.textContent = "";
   volumeEl.textContent = "";
   massEl.textContent = "";
