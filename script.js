@@ -5,6 +5,7 @@ const volumeEl = document.querySelector("#volume-el");
 const massEl = document.querySelector("#mass-el");
 
 convertBtn.addEventListener("click", function () {
+  e.preventDefault();
   lengthEl.textContent = "";
   volumeEl.textContent = "";
   massEl.textContent = "";
