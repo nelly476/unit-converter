@@ -20,7 +20,7 @@ header {
 }
 
 .number-input {
-  max-width: 5rem;
+  max-width: 7rem;
   min-height: 4rem;
   justify-self: center;
   font-size: 3.5rem;
@@ -49,12 +49,11 @@ header {
 .metrics-section {
   color: #5a537b;
   display: grid;
-  row-gap: 0.4rem;
   justify-content: center;
   background-color: white;
-  width: 22rem;
-  height: 3rem;
-  padding: 0.7rem 2rem;
+  width: 26rem;
+  height: 5rem;
+  padding: 0.5rem 1rem;
   border-radius: 6px;
 }
 
