@@ -6,7 +6,15 @@ const massEl = document.querySelector("#mass-el");
 
 convertBtn.addEventListener("click", function () {
   lengthEl.textContent = "";
+  volumeEl.textContent = "";
+  massEl.textContent = "";
+
   lengthEl.textContent += `
-  ${inputEl.value} meters = ${inputEl.value * 3.281} feet |
-  ${inputEl.value} feet = ${inputEl.value / 3.281} meters `;
+  ${inputEl.value} meters = ${(inputEl.value * 3.281).toFixed(2)} feet |
+  ${inputEl.value} feet = ${(inputEl.value / 3.281).toFixed(2)} meters `;
+
+  volumeEl.textContent += `
+${inputEl.value} litres = ${(inputEl.value * 0.264).toFixed(2)} gallons |
+${inputEl.value} gallons = ${(inputEl.value / 0.264).toFixed(2)} litres
+`;
 });

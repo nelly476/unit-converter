@@ -49,6 +49,14 @@ header {
   display: grid;
   justify-content: center;
 
-  margin: 1rem 2rem 2rem 2rem;
-  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.metrics-section h3 {
+  justify-self: center;
+}
+
+.container {
+  display: grid;
+  row-gap: 20px;
 }
