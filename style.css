@@ -6,6 +6,8 @@
 
 body {
   font-family: Arial, sans-serif;
+  height: 100vh;
+  background-color: aliceblue;
 }
 
 header {
@@ -47,9 +49,13 @@ header {
 .metrics-section {
   color: #5a537b;
   display: grid;
+  row-gap: 0.4rem;
   justify-content: center;
-
-  box-sizing: border-box;
+  background-color: white;
+  width: 22rem;
+  height: 3rem;
+  padding: 0.7rem 2rem;
+  border-radius: 6px;
 }
 
 .metrics-section h3 {
@@ -58,5 +64,7 @@ header {
 
 .container {
   display: grid;
+  justify-content: center;
   row-gap: 20px;
+  padding: 1rem;
 }

@@ -17,4 +17,8 @@ convertBtn.addEventListener("click", function () {
 ${inputEl.value} litres = ${(inputEl.value * 0.264).toFixed(2)} gallons |
 ${inputEl.value} gallons = ${(inputEl.value / 0.264).toFixed(2)} litres
 `;
+  massEl.textContent += `
+${inputEl.value} kilos = ${(inputEl.value * 2.204).toFixed(2)} pounds |
+${inputEl.value} pounds = ${(inputEl.value / 2.204).toFixed(2)} kilos
+`;
 });
